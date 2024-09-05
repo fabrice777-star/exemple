@@ -1,0 +1,43 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.background {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 30px;
+  background-color: rgba(233, 236, 239, 0.8);
+  border-radius: 10px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}

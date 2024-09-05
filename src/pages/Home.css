@@ -1,0 +1,29 @@
+/* src/pages/Home.css */
+.background-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .hero {
+    padding: 60px 30px;
+    background-color: rgba(233, 236, 239, 0.8);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+  }
+  
